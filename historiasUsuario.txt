@@ -1,0 +1,18 @@
+
+        Historias de usuario del Museo interactivo Arte y Cultura Musical:
+
+
+
+        1. Como usuario, quiero ver la imagen de cada una de las piezas exhibidas en el museo, para
+        conocer mejor las piezas.
+
+        2. Como usuario, quiero escuchar los sonidos de cada una de las piezas, para entender como 
+        es su sonido.
+
+        3. Como usuario, quiero regresar al inicio de la página en cualquier momento, para mejorar mi experiencia de usuario.
+
+        4. Como usuario, quiero ver las exhibiciones correctamente desde cualquier dispositivo, para que 
+        no necesite de un computador para hacerlo.
+
+        5. Como usuario, quiero ver una descripción corta de cada una de las piezas exhibidas, para conocerlas mejor.
+

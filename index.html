@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="shortcut icon" href="assets/img/caja_de_msica.png">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+    <title>Caja musical</title>
+
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="museum-name">
+            <span class="museum-logo-name">
+                <img class="museum-logo" src="/assets/img/Logo.png" alt="logo del museo de Arte y Cultura Musical">
+                <p class="museum-name">Arte y Cultura Musical</p>
+            </span>
+        </div>
+
+        <nav>
+            <li> <a href="" class="">Inicio</a></li>
+
+        </nav>
+    </section>
+    <div class="container" data-0="transform:translateX(0%);" data-1000="transform:translateX(-500%);">
+        <section class="welcome-museum">
+            <h1>Bienvenido al museo del Arte y Cultura Musical</h1>
+            <p class="welcome-text">Durante el mes de enero del año 2022, tendremos en exhibición cinco (5) obras de
+                diferentes países y edades. ¡Conócelas! </p>
+        </section>
+        <section class="piece1">
+            <div class="piece1-img-name">
+                <img class="piece1-img" src="/assets/img/piece1.jpg" alt="caja musical">
+                <span>
+                    <p>Caja de música</p>
+                </span>
+                <span>
+                    <p>Thibouville-Lamy, Jerome</p>
+                </span>
+                <span>
+                    <p>Segunda mitad siglo XIX</p>
+                </span>
+
+            </div>
+            <div class="piece1-description">
+                <p>Es una caja de música fabricada hacia el último cuarto del siglo XIX por Jérôme Thibouville-Lamy, un
+                    constructor de instrumentos procedente de una larga estirpe de constructores iniciada en el siglo
+                    XVI, afincado en Mirecourt y activo durante la segunda mitad del siglo XIX hasta bien entrado el
+                    siglo XX. </p>
+                <button class="reproductor" onclick="playSound()" ondblclick="pauseSound()"> Escuchar sonido</button>
+
+            </div>
+            <hr size="120px" color="white">
+        </section>
+        <section class="piece2">
+            <div class="piece2-img-name">
+                <img class="piece2-img" src="/assets/img/piece2.jpg" alt="magnetófono ReVox">
+                <span>
+                    <p>Magnetófono ReVox</p>
+                </span>
+                <span>
+                    <p>REVOX</p>
+                </span>
+                <span>
+                    <p>1957</p>
+                </span>
+
+            </div>
+            <div class="piece2-description">
+                <p class="text-description-piece2">Es un magnetófono ReVox, una marca suiza de aparatos de audio
+                    registrada por Studer en 1948. En
+                    los años noventa, la marca fue vendida a Motor-Columbus AG, incluyendo todas las sociedades filiales
+                    y se dividió en varias secciones pero aún así, todavía sigue activa. Se trata del modelo
+                    Revox Willi Studer 36B Tubes Tape recorder y está montado en una especie de maletín con tapa. Es una
+                    grabadora de tres motores con tres cabezales y que utiliza la cinta como soporte. La velocidad de
+                    ésta es de entre 9,5 y 19 cm/sy tiene ocho tubos. </p>
+                <hr class="line-piece2" size="2" color="white" width="650px">
+                <p class="instructions-piece2">Presiona cualquier tecla para reproducir su sonido.</p>
+                <input type="text" onkeydown="pressKey()"></p>
+
+            </div>
+
+        </section>
+        <section class="piece3">
+            <div class="piece3-img-name">
+                <img class="piece3-img" src="/assets/img/piece3.jpg" alt="Cítara automática" onmouseover="bigImg(this)"
+                    onmouseout="normalImg(this)">
+                <span>
+                    <p>Cítara automática</p>
+                </span>
+                <span>
+                    <p>1900</p>
+                </span>
+
+            </div>
+            <div class="piece3-description">
+                <p class="text-description-piece3">Es una cítara automática que utiliza un rollo de cinta perforada como
+                    soporte. La caja de resonancia
+                    y la mesa armónica tienen forma trapezoidal y tiene una abertura acústica circular decorada con una
+                    cenefa de hojas de hiedra a su alrededor. Además, la mesa está decorada con un fragmento de
+                    pentagrama con notación musical y con unos números del 1 al 6 en el centro. Como mecanismos tiene
+                    una manija, que se hace girar para hacer sonar la pieza más rápido o más lento y es un instrumento
+                    que funcionar con lectura de levas. Tiene cincuenta y cinco cuerdas simples y seis clavijas triples
+                    y treinta y una individuales de metal. También consta de un puente y en cuanto a la afinación,
+                    incluye la posibilidad de realizar cromatismos. Conserva una clave para dar cuerda y otra para
+                    adelantar el mecanismo automático. </p>
+                <hr class="line-piece3" size="2" color="white" width="650px">
+                <p class="instructions-piece3">Pasa el mouse sobre la imagen para reproducir su sonido.</p>
+            </div>
+
+        </section>
+        <section class="piece4">
+            <div class="piece4-img-name">
+                <img class="piece4-img" src="/assets/img/piece4.jpg" alt="futozao shamisen">
+                <span>
+                    <p>Futozao shamisen</p>
+                </span>
+                <span>
+                    <p>Komatsuya</p>
+                </span>
+                <span>
+                    <p>2019</p>
+                </span>
+
+            </div>
+            <div class="piece4-description">
+                <p class="text-description-piece4">Es un shamisen japonés de tres cuerdas simples. En este caso se trata
+                    de un shamisen del tipo futozao, es decir, de los que presentan el mango más ancho. Consiste en una
+                    caja cuadrada con los fondos y la mesa armónica abiertas y con los riesgos hechos de sándalo, al
+                    igual que el mango, desmontable en tres piezas y con sus juntas trabajadas con métodos de
+                    orfebrería, mediante la técnica "hozogane", con oro, el mango atraviesa la caja por completo. El
+                    puente es de madera lacada y la funda lateral de la caja es de cartón y tela estampada con motivos
+                    geométricos. El interior de la caja está cortada "ayasugibori" para mejorar su resonancia. El
+                    clavijero es curvado y las clavijas están hechas de ébano. La tapa está hecha de un cuero
+                    artificial. </p>
+                <hr class="line-piece4" size="2" color="white" width="650px">
+                <p class="instructions-piece4">Selecciona el texto para reproducir su sonido: </p>
+                <input type="text" value="Shamisen japonés" onselect="functionPiece4()">
+            </div>
+
+        </section>
+        <section class="piece5">
+            <div class="piece5-img-name">
+                <img class="piece5-img" src="/assets/img/piece5.jpg" alt="ayotl" ondblclick="functionPiece5()">
+                <span>
+                    <p>Ayotl</p>
+                </span>
+                <span>
+                    <p>Encontrado en Guatemala</p>
+                </span>
+                <span>
+                    <p>1950</p>
+                </span>
+
+            </div>
+            <div class="piece5-description">
+                <p class="text-description-piece5">Cáscara de tortuga, percutor de caña, hilo y cinta adhesiva. Con el
+                    percusor se golpea las placas anterior y posterior de la base del caparazón, de modo que éste actúa
+                    como resonador y cada una de las placas produce una frecuencia diferente. </p>
+                <hr class="line-piece5" size="2" color="white" width="650px">
+                <p class="instructions-piece5">Da doble clic en la imagen para reproducir el sonido del Ayotl. </p>
+            </div>
+
+        </section>
+    </div>
+    <script type="text/javascript" src="/js/skrollr.js"></script>
+    <script type="text/javascript">
+        let s = skrollr.init();
+    </script>
+    <script src="./js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+</body>
+
+</html>

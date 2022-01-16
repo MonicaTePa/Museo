@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: blanchedalmond;
+
+}
+
+.navbar {
+    background-color: #323232;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+
+
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar li {
+    display: inline;
+    margin-inline: 15px;
+
+}
+
+.museum-logo {
+    height: 30px;
+    width: 30px;
+
+}
+
+.museum-logo-name {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-inline: 15px;
+}
+
+.museum-name {
+    color: antiquewhite;
+    margin-left: 15px;
+    font-size: large;
+    font-weight: 1000;
+    position: fixed;
+}
+
+nav {
+    justify-content: right;
+    padding-left: 90%;
+    margin-right: 3%;
+    font-size: smaller;
+    position: fixed;
+
+}
+
+
+.welcome-museum {
+    justify-content: center;
+    display: flex;
+    font-family: 'Dongle', sans-serif;
+}
+
+h1 {
+    padding-left: 40px;
+    color: #FFAC41;
+    font-family: 'Dongle', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+
+}
+
+.welcome-text {
+    padding-top: 400px;
+    width: 700px;
+    text-align: center;
+    padding-right: 60px;
+}
+
+.container {
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.container section {
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width:991px) {
+    .container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        transform: none;
+    }
+}
+
+.piece1-description {
+    width: 600px;
+
+    padding-left: 20px;
+    font-family: 'Dongle', sans-serif;
+    padding-right: 20px;
+    text-align: justify;
+
+}
+
+.piece1-description button {
+    margin-top: 10px;
+
+}
+
+.piece1-img-name {
+    width: 500px;
+    font-family: 'The Nautigal', cursive;
+    font-size: small;
+
+}
+
+.piece1-img-name p,
+.piece2-img-name p {
+    padding-top: 10px;
+
+}
+
+.piece1-img {
+    width: 400px;
+    height: 300px;
+}
+
+.piece1 .piece2 {
+    padding-bottom: 200px;
+}
+
+.reproductor {
+    justify-content: center;
+    align-items: center;
+}
+
+.reproductor img {
+    width: 50px;
+    height: 30px;
+}
+
+.piece1-description button {
+    background-color: #FF1E56;
+    border: #FF1E56;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+}
+
+.piece2-img {
+    width: 400px;
+    height: 300px;
+}
+
+.piece2-description {
+    width: 700px;
+    padding-left: 35px;
+    font-family: 'Dongle', sans-serif;
+    padding-right: 20px;
+    text-align: justify;
+    padding-bottom: 20px;
+
+}
+
+.text-description-piece2,
+.text-description-piece3,
+.text-description-piece4 {
+    padding-bottom: 20px;
+}
+
+.instructions-piece2,
+.instructions-piece3,
+.instructions-piece4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.piece3-img {
+    width: 400px;
+    height: 400px;
+}
+
+.piece3-description {
+    width: 700px;
+    padding-left: 35px;
+    font-family: 'Dongle', sans-serif;
+    padding-right: 20px;
+    text-align: justify;
+    padding-bottom: 20px;
+
+}
+
+.piece4-img {
+    width: 200px;
+    height: 300px;
+}
+
+.piece4-description {
+    width: 700px;
+    padding-left: 35px;
+    font-family: 'Dongle', sans-serif;
+    padding-right: 20px;
+    text-align: justify;
+    padding-bottom: 20px;
+
+}
+
+.piece5-img {
+    width: 500px;
+    height: 300px;
+}
+
+.piece5-description {
+    width: 700px;
+    padding-left: 35px;
+    font-family: 'Dongle', sans-serif;
+    padding-right: 20px;
+    text-align: justify;
+    padding-bottom: 20px;
+
+}
+
+.instructions-piece5 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.text-description-piece5 {
+    padding-bottom: 15px;
+}
+
+input {
+    font-family: 'Dongle', sans-serif;
+    color: #FF1E56;
+    font-weight: 700;
+    text-align: center;
+}
